@@ -18,7 +18,7 @@ def calculate_with_simple_iterations(A, b):
     return x
 
 # Example of use
-#A = np.array([[2, 4,1], [3, 6,1] , [3,1,1]])
-#b = np.array([8, 15 ,10])
-#x = simple_iterations(A, b)
-#print(x)
+A = np.array([[5, 5,1], [3, 6,1] , [3,1,1]])
+b = np.array([8, 15 ,10])
+x = calculate_with_simple_iterations(A, b)
+print(x)
